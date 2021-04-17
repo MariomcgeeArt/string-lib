@@ -22,6 +22,13 @@ function capitalizeWords(str) {
     const words = tr.split(' ')
     const upperWords = words.map( word => capitalize(word))
     return upperWords.join(' ')
+}
 
+//challenge 4 
 
+function removeExtraSpaces(str) {
+    const trimmed = str.trim()
+    const chars = trimmed.splt(' ')
+    const filtered = chars.filter( (c) => c !== '')
+    return filtered.join(' ')
 }
