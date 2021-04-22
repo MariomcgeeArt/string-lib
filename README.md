@@ -16,7 +16,7 @@ Their names and functions are as follows:
   - Removes all spaces from the beginning and end of a String along with any extra spaces in the middle. If more than one space appears in the middle of a string it is replaced by a single space.
 
 -  kebobCase() 
-  - Removes extra spaces and replaces spaces with the hyphen “-“, and makes all characters lowercase.
+  git push - Removes extra spaces and replaces spaces with the hyphen “-“, and makes all characters lowercase.
 
 - snakeCase() 
   - Removes extra space and replaces spaces with an underscore “_”, and makes all characters lowercase.
@@ -35,4 +35,4 @@ Their names and functions are as follows:
 
 
 ## Link to NPM and Instalation instructions
- - link here 
+ - link new npm link coming soon 

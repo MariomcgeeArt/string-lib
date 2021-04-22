@@ -9,7 +9,7 @@ function capitalize(str) {
 }
 
 
-console.log(capitalize(str))
+//console.log(capitalize(str))
 
 //Challenge 2
 function allcaps(str) {
@@ -86,7 +86,6 @@ function makeHashTag(str) {
     let topThree = wordArray.slice(0,3)
     
   
-    // console.log(wordArray)
     let result = "#";
     
     if (wordArray.length === 0) {
@@ -111,10 +110,10 @@ function makeHashTag(str) {
     }
   }
   
-  console.log(" ");
-  console.log("Make Hashtag:");
-  str = "Amazing bongo drums for sale";
-  console.log(makeHashTag(str));
+  //console.log(" ");
+  //console.log("Make Hashtag:");
+  //str = "Amazing bongo drums for sale";
+  //console.log(makeHashTag(str));
   
 //challenge 10
   
@@ -126,3 +125,33 @@ function makeHashTag(str) {
     }
     return true
   }
+
+// Prototype Practice
+String.prototype.isEmpty= function(){
+    return isEmpty(this)
+}
+
+String.prototype.makeHashTag= function(){
+    return makeHashTag(this)    
+}
+
+String.prototype.shift = function(){
+    return shift(this)
+}
+
+shift('hello')
+'hello'.shift()
+
+//module.exports
+module.exports = {
+    isEmpty,
+    makeHashTag,
+    shift,
+    camelCase,
+    snakeCase,
+    kebobCase,
+    removeExtraSpaces,
+    capitalizeWords,
+    allcaps,
+    capitalize
+}

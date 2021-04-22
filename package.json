@@ -1,8 +1,8 @@
 {
-  "name": "string-lib",
-  "version": "1.0.0",
+  "name": "@maricode1111/string-manip",
+  "version": "1.0.5",
   "description": "A js function library for strings",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
